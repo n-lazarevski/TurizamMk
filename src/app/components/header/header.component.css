@@ -1,0 +1,21 @@
+.navbar {
+  padding: 1em;
+  display: flex;
+
+  align-items: center;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: var(--dark);
+}
+
+.nav-link:hover {
+  color: #6C6979;
+}
+
+#brand {
+  margin: 0;
+  font-weight: bold;
+  font-size: 1.5em;
+}
