@@ -8,3 +8,9 @@
 #description {
   font-size: 1.3em;
 }
+
+#dash, #map {
+  height: 100%;
+}
+
+

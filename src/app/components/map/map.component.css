@@ -1,0 +1,27 @@
+img {
+  max-width: 60%;
+  float: left;
+  object-fit: contain;
+}
+
+.back {
+  background: skyblue;
+  height: 100%;
+}
+
+.wrap {
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+
+.box {
+  position: absolute;
+  cursor: pointer;
+}
+
+#skopje {
+  top: 24%;
+  left: 46%;
+}
+
