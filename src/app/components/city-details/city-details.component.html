@@ -1,1 +1,11 @@
-<p>city-details works!</p>
+<h1>{{cityName}}</h1>
+<div class="attractions" >
+  <div *ngFor="let attr of cityDetails.attractions" class="card" style="width: 18rem;">
+    <img class="card-img-top" src="{{attr.image}}" alt="Card image cap">
+    <div class="card-body">
+      <h5 class="card-title">{{attr.ime}}</h5>
+      <p class="card-text">{{attr.desc}}</p>
+    </div>
+  </div>
+</div>
+
