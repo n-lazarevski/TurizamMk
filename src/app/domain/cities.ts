@@ -9,7 +9,7 @@ const cities = {
       {
         ime: "Canyon Matka",
         desc: "Covering over 5,000 hectares, is one of the most popular outdoor destination in Macedonia, and is home to several medieval monasteries."
-      }
+      },
       {
         ime: ""
       }
