@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PinComponent } from './pin.component';
+import { AttractionCardComponent } from './attraction-card.component';
 
-describe('PinComponent', () => {
-  let component: PinComponent;
-  let fixture: ComponentFixture<PinComponent>;
+describe('AttractionCardComponent', () => {
+  let component: AttractionCardComponent;
+  let fixture: ComponentFixture<AttractionCardComponent>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ PinComponent ]
+      declarations: [ AttractionCardComponent ]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PinComponent);
+    fixture = TestBed.createComponent(AttractionCardComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

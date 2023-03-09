@@ -8,9 +8,11 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { MapComponent } from './components/map/map.component';
 import {RouterModule, Routes} from "@angular/router";
-import { PinComponent } from './components/pin/pin.component';
 import { CityDetailsComponent } from './components/city-details/city-details.component';
-import { CarouselComponent } from './components/carousel/carousel.component';
+import { AttractionCardComponent } from './components/attraction-card/attraction-card.component';
+import { MatDatepickerModule } from "@angular/material/datepicker";
+import { MatInputModule } from "@angular/material/input";
+import { MatNativeDateModule } from "@angular/material/core";
 
 const appRoutes: Routes = [
   { path: 'home', component: DashboardComponent },
@@ -24,9 +26,8 @@ const appRoutes: Routes = [
     HeaderComponent,
     DashboardComponent,
     MapComponent,
-    PinComponent,
     CityDetailsComponent,
-    CarouselComponent
+    AttractionCardComponent
   ],
   imports: [
     BrowserModule,
@@ -34,8 +35,11 @@ const appRoutes: Routes = [
     NgbModule,
     RouterModule.forRoot(
       appRoutes,
-      { enableTracing: true }
-    )
+      {enableTracing: true}
+    ),
+    MatDatepickerModule,
+    MatInputModule,
+    MatNativeDateModule
   ],
   providers: [],
   bootstrap: [AppComponent]

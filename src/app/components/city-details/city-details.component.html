@@ -1,11 +1,11 @@
-<h1>{{cityName}}</h1>
-<div class="attractions" >
-  <div *ngFor="let attr of cityDetails.attractions" class="card" style="width: 18rem;">
-    <img class="card-img-top" src="{{attr.image}}" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">{{attr.ime}}</h5>
-      <p class="card-text">{{attr.desc}}</p>
-    </div>
+<div class="bg">
+  <div class="page-title">
+    <h1>{{cityDetails.ime}}</h1>
+  </div>
+  <div class="attractions row">
+    <app-attraction-card *ngFor="let attr of cityDetails.attractions"
+                         [attraction]="attr" class="attr-card">
+    </app-attraction-card>
   </div>
 </div>
 

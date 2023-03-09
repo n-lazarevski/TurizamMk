@@ -1,14 +1,18 @@
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
+
 .navbar {
   padding: 1em;
   display: flex;
-  background-color: #32334D;
-
+  /*background-color: #32334D;*/
+  background-color: #2E4052;
   align-items: center;
 }
 
 .nav-link {
   text-decoration: none;
-  color: var(--dark);
 }
 
 .nav-link:hover {
@@ -19,5 +23,4 @@
   margin: 0;
   font-weight: bold;
   font-size: 1.5em;
-  color: antiquewhite;
 }

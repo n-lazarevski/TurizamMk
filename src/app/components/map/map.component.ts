@@ -7,7 +7,7 @@ import {Component} from '@angular/core';
 })
 export class MapComponent {
 
-  image: string = 'Mapp.png'
+  image: string = 'Map_bel_outline.png'
 
   changeMap(area: string){
     this.image = `${area}.png`

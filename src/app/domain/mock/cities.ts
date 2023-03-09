@@ -1,5 +1,8 @@
-export const cities = {
-  skopje: {
+import {City} from "../city.interface";
+
+export const cities: City[] = [
+  {
+    id: "skopje",
     ime: "Skopje",
     attractions: [
       {
@@ -19,12 +22,13 @@ export const cities = {
       }
     ]
   },
-  krusevo: {
+  {
+    id: "krusevo",
     ime: "Krusevo",
-    attractions:  [
+    attractions: [
       {
         ime: "Makedonium-Ilinden Monument",
-        desc: "Makedonium monument in Krusevo opened August 2 of 1974,  on the 30th anniversary of the Second Session of Anty-fascist Assembly for the National Liberation of Macedonia."
+        desc: "Makedonium monument in Krusevo opened August 2 of 1974,  on the 30th anniversary of the Second Session of Anty-fascist Assembly for the National Liberation of Macedonia.",
         image: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTLRQ3176Oqx9o4_vRqpHPH_PJkQBw9yQWbhyVbxmpy6BxA4JIF3aE97R4tvPs29g-cZSwyELt29gnkvp9dKbWzVQ"
       },
       {
@@ -39,7 +43,8 @@ export const cities = {
       }
     ]
   },
-  veles: {
+  {
+    id: "veles",
     ime: "Veles",
     attractions:  [
       {
@@ -59,7 +64,8 @@ export const cities = {
       }
     ]
   },
-  Tetovo: {
+  {
+    id: "tetovo",
     ime: "Tetovo",
     attractions:  [
       {
@@ -79,7 +85,8 @@ export const cities = {
       }
     ]
   },
-  Ohrid: {
+  {
+    id: "ohrid",
     ime: "Ohrid",
     attractions:  [
       {
@@ -99,7 +106,8 @@ export const cities = {
       }
     ]
   },
-  Kumanovo: {
+  {
+    id: "kumanovo",
     ime: "Kumanovo",
     attractions:  [
       {
@@ -118,5 +126,5 @@ export const cities = {
         image: "https://travel2macedonia.com/images/photossights/28345093.jpg",
       }
     ]
-  },
-}
+  }
+]
