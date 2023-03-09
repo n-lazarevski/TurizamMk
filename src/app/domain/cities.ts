@@ -24,12 +24,18 @@ export const cities = {
     attractions:  [
       {
         ime: "Makedonium-Ilinden Monument",
-        desc: "Makedonium monument in Krusevo opened August 2 of 1974,  on the 30th anniversary of the Second Session of Anty-fascist Assembly for the National Liberation of Macedonia.",
+        desc: "Makedonium monument in Krusevo opened August 2 of 1974,  on the 30th anniversary of the Second Session of Anty-fascist Assembly for the National Liberation of Macedonia."
         image: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTLRQ3176Oqx9o4_vRqpHPH_PJkQBw9yQWbhyVbxmpy6BxA4JIF3aE97R4tvPs29g-cZSwyELt29gnkvp9dKbWzVQ"
       },
       {
         ime: "Memorial House of Tose Proeski",
-        desc: ""
+        desc: "The Memorial House of Macedonia's late pop star Tose Proeski is the famous symbol of Krusevo, It won the first place at the global architecture event",
+        image: "https://s.inyourpocket.com/gallery/244374.jpg",
+      },
+      {
+        ime: "Panorama All Seasons Adventure",
+        desc: "Panorama plays a crutial part of Krusevo's tourism and offers wide range of activities, starting with Quad Adventures, Adventure Park, Paragliding, Mountain Go-Kart, Winter Safari",
+        image: "https://panoramaspa.mk/wp-content/uploads/2019/12/AltoLoungeBar.jpg",
       }
     ]
   }
