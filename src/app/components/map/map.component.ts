@@ -1,4 +1,4 @@
-import {Component, HostListener} from '@angular/core';
+import {Component} from '@angular/core';
 
 @Component({
   selector: 'app-map',
@@ -7,11 +7,11 @@ import {Component, HostListener} from '@angular/core';
 })
 export class MapComponent {
 
+  image: string = 'Mapp.png'
   constructor() {
   }
 
-  @HostListener('document:mousemove', ['$event'])
-  onMouseMove(e: any) {
-    console.log(e);
+  changeMap(area: string){
+    this.image = `${area}.png`
   }
 }
