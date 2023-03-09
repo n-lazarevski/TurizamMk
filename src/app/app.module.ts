@@ -10,12 +10,12 @@ import { MapComponent } from './components/map/map.component';
 import {RouterModule, Routes} from "@angular/router";
 import { PinComponent } from './components/pin/pin.component';
 import { CityDetailsComponent } from './components/city-details/city-details.component';
+import { CarouselComponent } from './components/carousel/carousel.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: DashboardComponent },
   { path: 'city/:city', component: CityDetailsComponent },
-  { path: '', redirectTo: '/home', pathMatch: 'full' },
-  { path: '**', redirectTo: '/home', pathMatch: 'full' },
+  { path: '', redirectTo: '/home', pathMatch: 'full' }
 ]
 
 @NgModule({
@@ -25,7 +25,8 @@ const appRoutes: Routes = [
     DashboardComponent,
     MapComponent,
     PinComponent,
-    CityDetailsComponent
+    CityDetailsComponent,
+    CarouselComponent
   ],
   imports: [
     BrowserModule,

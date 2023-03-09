@@ -1,4 +1,4 @@
-const cities = {
+export const cities = {
   skopje: {
     ime: "Skopje",
     attractions: [
@@ -24,7 +24,7 @@ const cities = {
     attractions:  [
       {
         ime: "Makedonium-Ilinden Monument",
-        desc: "Makedonium monument in Krusevo opened August 2 of 1974,  on the 30th anniversary of the Second Session of Anty-fascist Assembly for the National Liberation of Macedonia."
+        desc: "Makedonium monument in Krusevo opened August 2 of 1974,  on the 30th anniversary of the Second Session of Anty-fascist Assembly for the National Liberation of Macedonia.",
         image: "https://encrypted-tbn1.gstatic.com/licensed-image?q=tbn:ANd9GcTLRQ3176Oqx9o4_vRqpHPH_PJkQBw9yQWbhyVbxmpy6BxA4JIF3aE97R4tvPs29g-cZSwyELt29gnkvp9dKbWzVQ"
       },
       {
