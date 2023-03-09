@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {ViewportScroller} from "@angular/common";
 
 @Component({
   selector: 'app-dashboard',
@@ -7,4 +8,10 @@ import { Component } from '@angular/core';
 })
 export class DashboardComponent {
 
+  constructor(private scroller: ViewportScroller) {
+  }
+
+  scrollToMap() {
+    this.scroller.scrollToAnchor("map");
+  }
 }

@@ -14,3 +14,12 @@
 }
 
 
+.dashboard-text {
+  text-shadow: 0 0 4px darkgray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+

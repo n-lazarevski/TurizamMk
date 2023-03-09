@@ -9,9 +9,11 @@ import { DashboardComponent } from './components/dashboard/dashboard.component';
 import { MapComponent } from './components/map/map.component';
 import {RouterModule, Routes} from "@angular/router";
 import { PinComponent } from './components/pin/pin.component';
+import { CityDetailsComponent } from './components/city-details/city-details.component';
 
 const appRoutes: Routes = [
   { path: 'home', component: DashboardComponent },
+  { path: 'city/:city', component: CityDetailsComponent },
   { path: '', redirectTo: '/home', pathMatch: 'full' },
   { path: '**', redirectTo: '/home', pathMatch: 'full' },
 ]
@@ -22,7 +24,8 @@ const appRoutes: Routes = [
     HeaderComponent,
     DashboardComponent,
     MapComponent,
-    PinComponent
+    PinComponent,
+    CityDetailsComponent
   ],
   imports: [
     BrowserModule,

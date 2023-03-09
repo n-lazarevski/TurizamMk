@@ -8,8 +8,6 @@ import {Component} from '@angular/core';
 export class MapComponent {
 
   image: string = 'Mapp.png'
-  constructor() {
-  }
 
   changeMap(area: string){
     this.image = `${area}.png`
