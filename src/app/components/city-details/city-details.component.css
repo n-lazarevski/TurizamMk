@@ -10,16 +10,16 @@
 }
 
 h1 {
-  font-size: 5rem;
+  font-size: 3rem;
   padding: 20px 0;
   font-weight: bolder;
   border-bottom: solid 2px #2E4052;
   margin-top: auto;
-  width: 100%;
 }
 
 .page-title {
   display: flex;
+  flex-direction: column;
   padding: 2em 2em;
   font-weight: bolder;
   height: 20%;
